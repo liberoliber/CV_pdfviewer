@@ -70,9 +70,9 @@ $(document).ready(function(){
         // let url3 = 'https://ai-pdf-viewer.herokuapp.com/lorem_ipsum.pdf';
 
         if ($(this).attr("id") === "alice_pdf")
-            url = 'https://ai-pdf-viewer.herokuapp.com/ai_robotics_coding.pdf'
-        else if ($(this).attr("id") === "intro_pdf")
-            url = 'https://ai-pdf-viewer.herokuapp.com/ai_robotics_coding.pdf'
+            url = 'https://ai-pdf-viewer.herokuapp.com/learn_ai.pdf'
+        else if ($(this).attr("id") === "frank_pdf")
+            url = 'https://ai-pdf-viewer.herokuapp.com/ai_2020.pdf'
 
 
         let canvas = document.getElementById('pdf_canvas')
