@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 
         let canvas = document.getElementById('pdf_canvas')
-        let url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/lorem_ipsum.pdf';
+        let url = 'https://ai-pdf-viewer.herokuapp.com/ai_robotics_coding.pdf';
 
         let input_text = $("#pdf_url_form input").val()
 
