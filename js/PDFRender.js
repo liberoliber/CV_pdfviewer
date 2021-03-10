@@ -22,7 +22,7 @@ class PDFRender {
 
         // DEBUG
         if (pdfFile === "")
-            pdfFile = 'https://ai-pdf-viewer.herokuapp.com/lorem_ipsum.pdf'
+            pdfFile = 'https://ai-pdf-viewer.herokuapp.com/ai_robotics_coding.pdf'
 
 
         this.initPDF(pdfFile)
