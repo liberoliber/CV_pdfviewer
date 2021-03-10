@@ -65,14 +65,14 @@ $(document).ready(function(){
         $("#pdf_container").show()
 
         console.log($(this).attr("id"))
-        let url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/lorem_ipsum.pdf';
+        let url = 'https://ai-pdf-viewer.herokuapp.com/ai_robotics_coding.pdf';
         // let url2 = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Alice_Lewis_Carroll.pdf';
         // let url3 = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Frankenstein_Mary_Shelley.pdf';
 
         if ($(this).attr("id") === "alice_pdf")
-            url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Alice_Lewis_Carroll.pdf'
+            url = 'https://ai-pdf-viewer.herokuapp.com/learn_ai.pdf'
         else if ($(this).attr("id") === "frank_pdf")
-            url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Frankenstein_Mary_Shelley.pdf'
+            url = 'https://ai-pdf-viewer.herokuapp.com/ai_2020.pdf'
 
 
         let canvas = document.getElementById('pdf_canvas')
