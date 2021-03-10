@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 
         let canvas = document.getElementById('pdf_canvas')
-        let url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/lorem_ipsum.pdf';
+        let url = 'https://ai-pdf-viewer.herokuapp.com/lorem_ipsum.pdf';
 
         let input_text = $("#pdf_url_form input").val()
 
@@ -67,12 +67,12 @@ $(document).ready(function(){
         console.log($(this).attr("id"))
         let url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/lorem_ipsum.pdf';
         // let url2 = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Alice_Lewis_Carroll.pdf';
-        // let url3 = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Frankenstein_Mary_Shelley.pdf';
+        // let url3 = 'https://ai-pdf-viewer.herokuapp.com/lorem_ipsum.pdf';
 
         if ($(this).attr("id") === "alice_pdf")
             url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Alice_Lewis_Carroll.pdf'
-        else if ($(this).attr("id") === "frank_pdf")
-            url = 'https://raw.githubusercontent.com/fabridigua/FacePDFViewer/main/Frankenstein_Mary_Shelley.pdf'
+        else if ($(this).attr("id") === "intro_pdf")
+            url = 'https://ai-pdf-viewer.herokuapp.com/lorem_ipsum.pdf'
 
 
         let canvas = document.getElementById('pdf_canvas')
