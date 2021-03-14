@@ -5,9 +5,9 @@ Online PDF viewer using Computer Vision to make the user scroll the pages with t
 
 A demo is available at https://ai-pdf-viewer.herokuapp.com/
 
-For more information about the implementation: https://towardsdatascience.com/facepdfviewer-a-pdf-viewer-controllable-by-head-movements-using-facial-landmark-detection-ed7a91073bd1
+For more information about the implementation: https://jairribeiro.medium.com/a-practical-example-of-assistive-a-i-the-computer-vision-pdfreader-b77b0f6f9bfb?sk=88257d4e84f61414984e83f53fbe2512
 
-Source code originally developed by by Fabrizio Di Guardo
+Source code originally developed by by Fabrizio Di Guardo: https://github.com/fabridigua/FacePDFViewer
 
 ------
 
